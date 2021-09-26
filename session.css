@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgb(243, 247, 243);
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.right
+{
+    float: right !important;
+    color: black;
+    letter-spacing: 4px;
+    font-size: large; 
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+}
+.Menu
+{
+    white-space: nowrap;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.p1
+{
+   
+    width:100%; height: auto;
+    vertical-align: middle;
+}
+.centre-image
+{
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.h1
+{
+    color:white;
+    font-size: 25px;
+    margin: 10px 0px; 
+    font-weight: 400; 
+    background-color: rgb(20, 97, 30); 
+    opacity: 0.5;
+    padding: 8px 16px; 
+    letter-spacing: 4px;
+}
+.centre
+{
+    margin-top: 100px;
+}
+.container {
+    border: solid 2px rgb(243, 247, 243);
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:before,
+.container:after
+ {
+    clear: both;
+}
+
+input[type=text]
+{
+    background-color: rgb(225, 238, 243);
+    color: rgb(64, 71, 75);
+    text-align: center;
+    height: 50px;
+    width: 50%;
+
+}
+
+input[type=submit]
+{
+    background-color: rgb(1, 22, 31);
+    color: rgb(64, 71, 75);
+    text-align: center;
+    height: 50px;
+    width: 10%;
+    color: white;
+
+}
